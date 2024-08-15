@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body>
+    <!-- Bagian 1: Struktur Dasar HTML -->
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>Tugas ini dirancang untuk menguji pemahaman tentang elemen-elemen dasar dalam HTML.</p>
+
+    <!-- Bagian 2: Pengelolaan Teks -->
+    <h2>Pengelolaan Teks</h2>
+    <p>HTML adalah bahasa <strong>markup</strong> yang digunakan untuk membuat dan menyusun bagian-bagian dari sebuah halaman web. Dengan HTML, Anda dapat <em>menekankan</em> teks, menambahkan gaya, dan mengatur tata letak konten dengan mudah.</p>
+    <hr>
+    <blockquote>
+        "Sukses bukanlah akhir, kegagalan bukanlah kejatuhan; keberanian untuk terus mencoba itulah yang berarti." - Winston Churchill
+    </blockquote>
+
+    <!-- Bagian 3: Hyperlink dan Gambar -->
+    <h2>Hyperlink dan Gambar</h2>
+    <p>
+        Kunjungi situs web favorit saya di sini: 
+        <a href="https://www.deviantart.com/" target="_blank">DevianArt</a>
+    </p>
+    <p>
+        Pixel Art:
+        <a href="https://www.deviantart.com/pluplant/art/Animated-Pond-1000644314">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5412b683-0ed5-445d-9d8d-005f811e0bce/dgjra3e-6ba61e6b-025d-4fbd-b6b9-5475aabd9034.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU0MTJiNjgzLTBlZDUtNDQ1ZC05ZDhkLTAwNWY4MTFlMGJjZVwvZGdqcmEzZS02YmE2MWU2Yi0wMjVkLTRmYmQtYjZiOS01NDc1YWFiZDkwMzQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.u5oi7wHOKZpWzoK7KPfjAeAxV5JPFmPxJ6gPhp4FBkA" alt="Animated Pond" width="300" height="200">
+        </a>
+    </p>
+
+    <!-- Bagian 4: Membuat Daftar -->
+    <h2>Membuat Daftar</h2>
+    <h3>Hal-hal yang ingin dicapai dalam satu tahun:</h3>
+    <ol>
+        <li>Menguasai bahasa pemrograman Python.</li>
+        <li>Menguasai staistika dan peluang.</li>
+        <li>Menguasai database management.</li>
+    </ol>
+    <h3>Hobi dan Aktivitas Favorit:</h3>
+    <ul>
+        <li>Membaca buku.</li>
+        <li>Bermain game.</li>
+        <li>Workout.</li>
+    </ul>
+
+    <!-- Bagian 5: Membuat Tabel -->
+    <h2>Tabel Data</h2>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Isal</td>
+            <td>24</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>Keenan</td>
+            <td>27</td>
+            <td>Bandung</td>
+        </tr>
+        <tr>
+            <td>Reza</td>
+            <td>29</td>
+            <td>Semarang</td>
+        </tr>
+    </table>
+
+    <!-- Bagian 6: Membuat Formulir -->
+    <h2>Formulir Pendaftaran</h2>
+    <form action="/submit" method="post">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br><br>
+
+        <label for="city">Kota:</label><br>
+        <select id="city" name="city">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="surabaya">Semarang</option>
+        </select><br><br>
+
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">Saya menyetujui syarat dan ketentuan</label><br><br>
+
+        <label for="message">Pesan atau Komentar:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
