@@ -1,0 +1,169 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1c1c1c;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #2c2c2c;
+    height: 100vh;
+}
+
+.hero .content {
+    max-width: 50%;
+}
+
+.hero .content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hero .content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.hero .content .btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.about-services {
+    padding: 50px;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.about-services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-services p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    max-width: 30%;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    padding: 50px;
+    background-color: #2c2c2c;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.cta {
+    padding: 50px;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.cta .btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    color: #1c1c1c;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #2c2c2c;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
